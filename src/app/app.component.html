@@ -1,10 +1,10 @@
 <mat-sidenav-container>
   <mat-sidenav #sidenav>
     <mat-nav-list>
-      <mat-list-item (click)="sidenav.close()">
+      <mat-list-item (click)="sidenav.close()" routerLink="/files">
         <mat-icon>list</mat-icon>Prácticas
       </mat-list-item>
-      <mat-list-item (click)="sidenav.close()">
+      <mat-list-item (click)="sidenav.close()" routerLink="/files/new">
         <mat-icon>add</mat-icon>Añadir Práctica
       </mat-list-item>
     </mat-nav-list>
